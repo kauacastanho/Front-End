@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho-inicio {
+    background-color: rgb(94, 94, 173);
+    height: 90px;
+}
+
+.link-amarelo {
+    position: fixed;
+    top: 40px;
+    left: 45%;
+    color: white;
+    text-decoration: solid;
+}
+
+.nome {
+    font-size: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+.foto-perfil {
+    position: absolute;
+    height: 200px;
+    border-radius: 50%;
+    top: 15%;
+    left: 15%;
+}
+
+.cabecalho-final {
+    position: fixed;
+    background-color: rgb(94, 94, 173);
+    bottom: 0;
+    width: 100%;
+}
+
+.cabecalho-final h2 {
+
+    align-items: center;
+}
