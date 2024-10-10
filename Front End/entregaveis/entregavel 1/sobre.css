@@ -1,0 +1,51 @@
+body {
+    background-color:rgb(5, 1, 52);
+    height: 130vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+position: fixed;
+background-color: rgb(37, 38, 42);
+height: 80px;
+width: 100%;
+position: fixed;
+top: 0;
+z-index: 5;
+}
+
+.span1{
+    position: fixed;
+    font-size: 25px;
+    left: 30%;
+    top: 2%;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.span2 {
+    position: fixed;
+    font-size: 25px;
+    right: 30%;
+    top: 2%;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+}
+
+.link {
+    color: aliceblue;
+    text-decoration: dotted;
+}
+
+img {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 500px;
+}
