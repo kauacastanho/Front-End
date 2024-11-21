@@ -1,0 +1,23 @@
+
+.navegacao-inferior {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(48, 48, 48, 0.723);
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-icon {
+    height: 50px;
+    color: white;
+}
+
+
+@media (min-width: 600px) {
+    .navegacao-inferior {
+        display: none;
+    }
+}
